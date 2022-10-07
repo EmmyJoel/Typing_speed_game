@@ -5,9 +5,9 @@ It processes and return your real-time typing speed as you type on the go.
 
 ##Preview
 
-- <img src="./images/Typin.jpg">
-
 - <img src="./images/Typin2.jpg">
+
+- <img src="./images/Typin.jpg">
 
 ## Built with:
 - HTML
