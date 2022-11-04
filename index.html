@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Typing Speed Game</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="wlcm-msg">
-        <h1>Welcome buddy!!</h1>
-        <h3>Wanna put your typing speed to Test?</h3>
-        <button class="start">Let's Go</button>
+      <h1>Welcome buddy!!!</h1>
+      <h3>Wanna put your typing speed to Test?</h3>
+      <button class="start">Let's Go</button>
     </div>
     <div class="wrapper">
-        <input type="text" class="input-field">
-        <div class="content-box">
-            <div class="typing-text">
-                <p></p>
-            </div>
-            <div class="content">
-                <ul class="outputs">
-                    <li class="time">Time Left:<span><b>60</b>s</span></li>
-                    <li class="mistake">Mistakes:<span><b>0</b></span></li>
-                    <li class="wpm">WPM:<span><b>0</b></span></li>
-                    <li class="cpm">CPM:<span><b>0</b></span></li>
-                </ul>
-                <button id="tryAgain">Try Again</button>
-            </div>
+      <input type="text" class="input-field" />
+      <div class="content-box">
+        <div class="typing-text">
+          <p></p>
         </div>
+        <div class="content">
+          <ul class="outputs">
+            <li class="time">
+              Time Left:<span><b>60</b>s</span>
+            </li>
+            <li class="mistake">
+              Mistakes:<span><b>0</b></span>
+            </li>
+            <li class="wpm">
+              WPM:<span><b>0</b></span>
+            </li>
+            <li class="cpm">
+              CPM:<span><b>0</b></span>
+            </li>
+          </ul>
+          <button id="tryAgain">Try Again</button>
+        </div>
+      </div>
     </div>
     <script src="./js/words.js" defer></script>
     <script src="./js/script.js" defer></script>
-</body>
-
+  </body>
 </html>
