@@ -10,8 +10,9 @@ It processes and return your real-time typing speed as you type on the go.
 - <img src="./images/Typin.jpg">
 
 ## Built with:
+
 - HTML
 - CSS and
 - JavaScript
-  
-[Live link] - (https://)
+
+# [Live link] - (https://github.com/EmmyJoel/Typing_speed_game.git)
